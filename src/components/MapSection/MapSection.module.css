@@ -1,0 +1,44 @@
+.wrapper {
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 61px;
+    line-height: 73px;
+    text-align: center;
+}
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 10px;
+}
+.image {
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .description {
+        font-size: 14px;
+        line-height: 18px;
+    }
+}
